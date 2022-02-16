@@ -19,6 +19,12 @@ def list():
 
 
 def info():
-    container_info = client.info()
-    return container_info
+    docker_info = client.version()
+    # return docker_info
+    components = docker_info['Components']
 
+    for component in components:
+        if component ['Name'] == 'Engine':
+            version = component ['Version']
+        return version
+ 
