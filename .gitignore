@@ -96,3 +96,4 @@ ENV/
 src/credentials.*
 credentials.*
 .credentials.*
+.vscode
