@@ -16,8 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="Bot" src="data/bot.png">
-  <img alt="Bot" src="data/bot_help.png">
+  <img alt="Bot" src="data/python_telegram.jpeg">
 </p>
 
 ## 🌱 Projeto
@@ -48,14 +47,55 @@
 4. docker container run --name -P web04-externo -d nginx
 
 ## 🚀 Execução
-```console
-Em andamento..
-```
+
+- Inicializando o bot
+<p align="center">
+  <img alt="Bot" src="data/bot_init.png">
+</p>
+
+>> Comandos:
+
+- /start
+<p align="center">
+  <img alt="Bot" src="data/bot.png">
+</p>
+
+- /help
+<p align="center">
+  <img alt="Bot" src="data/bot_help.png">
+</p>
+
+>> Opções:
+
+- `Listar containers`
+<p align="center">
+  <img alt="Bot" src="data/bot_list.png">
+</p>
+
+- `Parar containers`
+<p align="center">
+  <img alt="Bot" src="data/bot_stop.png">
+</p>
+
+- `Verificar comandos`
+<p align="center">
+  <img alt="Bot" src="data/bot_commands.png">
+</p>
+
+- `Docker Version`
+<p align="center">
+  <img alt="Bot" src="data/bot_docker_version.png">
+</p>
+
 
 ## 📄 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ## 🙇 Referências
+
+1. https://docs.aiogram.dev/en/latest/
+
+2. https://github.com/aiogram/aiogram
 
 

@@ -46,7 +46,7 @@ if os.name != 'nt' and os.name != 'posix':
 # -------------------
 # Keyboard
 # -------------------
-keyboard_inline = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True).add("📝 Listar containers", "🚫 Parar containers", "🤖 Verificar Comandos", "❇️ Docker Info")
+keyboard_inline = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True).add("📝 Listar containers", "🚫 Parar containers", "🤖 Verificar Comandos", "❇️ Docker Version")
 
 
 #--------------------
@@ -76,7 +76,7 @@ async def welcome(message: types.Message):
     , reply_markup=keyboard_inline)
 
 #--------------------
-# list - stop - commands - docker info
+# list - stop - commands - docker version
 #--------------------
 @dp.message_handler()
 async def manager_answer(message: types.Message):
@@ -84,7 +84,7 @@ async def manager_answer(message: types.Message):
     if message.text == '🤖 Verificar Comandos':
         await message.reply(f'Lista de comandos: {commands_list}')
 
-    elif message.text == '❇️ Docker Info':
+    elif message.text == '❇️ Docker Version':
         await message.reply(info())
 
     elif message.text == '📝 Listar containers':
