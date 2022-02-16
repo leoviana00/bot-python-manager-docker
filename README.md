@@ -16,7 +16,8 @@
 </p>
 
 <p align="center">
-  <img alt="Bot" src="images/swagger-dash.png">
+  <img alt="Bot" src="data/bot.png">
+  <img alt="Bot" src="data/bot_help.png">
 </p>
 
 ## 🌱 Projeto
