@@ -13,10 +13,14 @@ import os
 import logging
 from colorama import init, Fore, Style
 init()
-import time
+import asyncio
 
 # Configure logging
+# logging.basicConfig(level=logging.INFO)
 logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+
 
 # ------------------------
 # Docker - Integração
@@ -106,5 +110,11 @@ async def manager_answer(message: types.Message):
         await message.reply(f"Container `{message.text}` foi parado! Caso deseje voltar para o menu, clique aqui:  /menu")
 
 
+async def notify_message():
+    await bot.send_message(chat_id,'🤖 Bot inicializado...\n🕹 Comandos: \n /start \n /help')
+    
+
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=False)
+    loop = asyncio.get_event_loop()
+    loop.create_task(notify_message()) # Function to execute
+    executor.start_polling(dp, skip_updates=True)
