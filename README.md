@@ -50,7 +50,7 @@
 
 - Inicializando o bot
 <p align="center">
-  <img alt="Bot" src="data/bot_init.png">
+  <img alt="Bot" src="src/data/bot_init.png">
 </p>
 
 >> Comandos:
