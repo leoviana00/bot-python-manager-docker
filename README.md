@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="Bot" src="data/python_telegram.jpeg">
+  <img alt="Bot" src="src/data/python_telegram.jpeg">
 </p>
 
 ## 🌱 Projeto
@@ -57,34 +57,34 @@
 
 - /start
 <p align="center">
-  <img alt="Bot" src="data/bot.png">
+  <img alt="Bot" src="src/data/bot.png">
 </p>
 
 - /help
 <p align="center">
-  <img alt="Bot" src="data/bot_help.png">
+  <img alt="Bot" src="src/data/bot_help.png">
 </p>
 
 >> Opções:
 
 - `Listar containers`
 <p align="center">
-  <img alt="Bot" src="data/bot_list.png">
+  <img alt="Bot" src="src/data/bot_list.png">
 </p>
 
 - `Parar containers`
 <p align="center">
-  <img alt="Bot" src="data/bot_stop.png">
+  <img alt="Bot" src="src/data/bot_stop.png">
 </p>
 
 - `Verificar comandos`
 <p align="center">
-  <img alt="Bot" src="data/bot_commands.png">
+  <img alt="Bot" src="src/data/bot_commands.png">
 </p>
 
 - `Docker Version`
 <p align="center">
-  <img alt="Bot" src="data/bot_docker_version.png">
+  <img alt="Bot" src="src/data/bot_docker_version.png">
 </p>
 
 
