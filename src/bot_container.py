@@ -67,7 +67,7 @@ commands_list = """
 #--------------------
 @dp.message_handler(commands=['start'], state = '*')
 async def devops(message: types.Message):
-    with open('src/data/devops.jpg', 'rb') as photo:
+    with open('data/devops.jpg', 'rb') as photo:
         await message.reply_photo(photo, caption=f'🖥  Servidor: {server} \n👻  DevOps estão aqui! \n🕹  Comandos: \n {commands_list}')
 
 #--------------------
