@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="Bot" src="src/data/python_telegram.jpeg">
+  <img alt="Bot" src="data/python_telegram.jpeg">
 </p>
 
 ## 🌱 Projeto
